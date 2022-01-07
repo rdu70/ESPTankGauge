@@ -3,7 +3,7 @@
 
 #include "cred.h"             // Include credential file
 
-#define RELEASE "1.03 - 20210223"
+#define RELEASE "1.04 - 20220107"
 
 #define CFG_FILE "/config.json"
 

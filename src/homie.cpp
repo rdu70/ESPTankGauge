@@ -29,8 +29,8 @@ void HomieClient::setup(Data *datastore) {
     pPropEnvLevel_cm=pProp=pEnvNode->NewProperty();
     pProp->strFriendlyName="Niveau (cm)";
     pProp->strID="level_cm";
-    pProp->strUnit="cm";
-    pProp->bRetained=true;
+    pProp->SetUnit("cm");
+    pProp->SetRetained(true);
     pProp->datatype=homieInt;
     pProp->strFormat="0:125";
     sprintf(TmpSt, "%i", data->TL.cm);
@@ -39,8 +39,8 @@ void HomieClient::setup(Data *datastore) {
     pPropEnvLevel_l=pProp=pEnvNode->NewProperty();
     pProp->strFriendlyName="Niveau (l)";
     pProp->strID="level_l";
-    pProp->strUnit="l";
-    pProp->bRetained=true;
+    pProp->SetUnit("l");
+    pProp->SetRetained(true);
     pProp->datatype=homieInt;
     pProp->strFormat="0:2500";
     sprintf(TmpSt, "%i", data->TL.l);
@@ -49,8 +49,8 @@ void HomieClient::setup(Data *datastore) {
     pPropEnvLevel_pct=pProp=pEnvNode->NewProperty();
     pProp->strFriendlyName="Niveau (pct)";
     pProp->strID="level_pct";
-    pProp->strUnit="%";
-    pProp->bRetained=true;
+    pProp->SetUnit("%");
+    pProp->SetRetained(true);
     pProp->datatype=homieInt;
     pProp->strFormat="0:100";
     sprintf(TmpSt, "%i", data->TL.pct);
