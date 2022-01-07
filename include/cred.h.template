@@ -1,0 +1,13 @@
+#ifndef _CRED_H
+#define _CRED_H
+
+// Wifi credential
+#define WIFI_SSID "SSID"
+#define WIFI_PSK "PSK"
+
+// MQTT Credential
+#define MQTT_IP "MQTT_IP"
+#define MQTT_USER "esp"
+#define MQTT_PASS "esp"
+
+#endif  /* _CRED_H */
