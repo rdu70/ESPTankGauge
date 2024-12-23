@@ -8,6 +8,6 @@
 // MQTT Credential
 #define MQTT_IP "MQTT_IP"
 #define MQTT_USER "esp"
-#define MQTT_PASS "esp"
+#define MQTT_PASS "esppwd"
 
 #endif  /* _CRED_H */
